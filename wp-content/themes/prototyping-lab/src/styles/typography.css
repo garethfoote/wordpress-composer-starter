@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:500,400,300,400italic,700");
+
+:root {
+  --font-text: "Source Sans Pro", sans-serif;
+  --font-weight: 300;
+  --line-height: 1.5;
+}

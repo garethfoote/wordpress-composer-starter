@@ -1,0 +1,23 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <div>
+  	<h2>Dummy content from functions.php into twig templates</h2>
+  	<p>foo: {{foo}}</p>
+  	<p>qux: {{"foo"|myfoo}}</p>
+  </div>
+
+  <div>
+    <h2>Workshops</h2>
+  	{% for ws in workshops %}
+  		<p><a href="{{ws.get_link}}">{{ws.title}}</a></p>
+  	{% endfor %}
+  </div>
+
+  <div>
+    <h2>All posts</h2>
+  	{% for post in posts %}
+  		{% include ['tease-'~post.post_type~'.twig', 'tease.twig'] %}
+  	{% endfor %}
+  </div>
+{% endblock %}

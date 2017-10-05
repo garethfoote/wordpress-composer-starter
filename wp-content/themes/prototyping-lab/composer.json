@@ -1,0 +1,26 @@
+{
+  "name": "lcc-prototyping-lab/prototyping-arts",
+  "description": "LCC Prototyping Lab - Documentation theme",
+  "type":"wordpress-theme",
+  "minimum-stability" : "stable",
+  "authors": [
+      {
+          "name": "garethfoote",
+          "email": "g.foote@lcc.arts.ac.uk"
+      },
+      {
+          "name": "tomlynch",
+          "email": "t.lynch@lcc.arts.ac.uk"
+      },
+      {
+          "name": "adamcorrie",
+          "email": "a.corrie@lcc.arts.ac.uk"
+      }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    }
+  ]
+}

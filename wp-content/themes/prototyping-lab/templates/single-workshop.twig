@@ -1,0 +1,15 @@
+{% extends "base.twig" %}
+
+{% block content %}
+
+	<div>
+		<h1>{{ post.title }}</h1>
+		<div>
+			{{post.content}}
+      {% for p in post.get_field('related_posts') %}
+        <p><a href="{{site.url}}/workshop/{{post.slug}}/{{p.slug}}" title="{{p.title}}">{{p.title}}</a></p>
+      {% endfor %}
+		</div>
+	</div>
+
+{% endblock %}

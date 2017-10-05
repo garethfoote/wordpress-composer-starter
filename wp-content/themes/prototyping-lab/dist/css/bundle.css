@@ -1,0 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:500,400,300,400italic,700);/* shared/colors.css */.article {
+  font-size: 14px
+}.article a {
+  color: #32c7ff;
+}.article p {
+  color: rgb(0, 0, 0);
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+}@media (min-width: 601px) {.article {
+    max-width: 30em
+  }
+}body {
+  font-family: "Source Sans Pro", sans-serif;
+}p {
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+/*# sourceMappingURL=bundle.css.map*/

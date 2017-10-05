@@ -1,0 +1,6 @@
+{% block content %}
+	{% for p in post.get_field('related_posts') %}
+		<div>
+    <a href="{{p.edit_link}}">{{p.title}}</a></div>
+	{% endfor %}
+{% endblock %}

@@ -1,0 +1,14 @@
+@import './colours.css';
+@import './typography.css';
+
+@import './component/article.css';
+
+body {
+  font-family: var(--font-text);
+}
+
+p {
+  color: var(--color-black);
+  font-weight: var(--font-weight);
+  line-height: var(--line-height);
+}

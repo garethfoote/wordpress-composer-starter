@@ -1,0 +1,10 @@
+{% extends "base.twig" %}
+
+{% block content %}
+  <div>
+    <h2>Workshop: {{term.title}}</h2>
+  	{% for post in posts %}
+  		{% include ['partials/tease-workshop.twig'] %}
+  	{% endfor %}
+  </div>
+{% endblock %}
